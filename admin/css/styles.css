@@ -1,0 +1,118 @@
+/* Styles of easy_location_map plugin
+* Author: Amal Amrani. 
+* Author URI: http://amrani.es
+* Version: 1.1
+*/
+
+
+
+.how-use-map{
+	padding: 1em 0;
+    font-size: 17px;
+    color: #0a5d0a;
+}
+
+.title_plugin{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.item{
+	display:block; 
+	width: 100%; 
+	padding: 10px 0;
+	
+}
+
+#easy_location_map_option label,
+#easy_location_map_option span{
+	width: 150px;	
+	display: inline-flex;
+	cursor: default;
+}
+ 
+.item input{
+	width: 80%; 
+	padding:10px;
+
+}
+#easy_location_map_option_select_icon_marker{
+	border: 1px solid #c8c8c8;
+	background: #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#easy_location_map_option_select_icon_marker:hover{
+	background: #e3e1e1;
+}
+#easy_location_map_option input[type="radio"]{
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	vertical-align: bottom;
+}
+
+#easy_location_map_option input[type="radio"]:checked{
+  background-color: #000000;
+  border: none;
+  width:20px;
+  height: 20px;  
+}
+#easy_location_map_option input[type="radio"]:checked:before{
+	background-color: transparent;
+}
+
+#easy_location_map_option label#grayStyle{
+  color: #727272;
+  font-weight: bold;
+  width: 80px;
+
+}
+#easy_location_map_option label#aquaStyle{
+  color: #0bd7d7;
+  font-weight: bold;
+  width: 80px;
+}
+
+#easy_location_map_option label#blackStyle{
+  color: #000000;
+  font-weight: bold;
+  width: 80px;
+
+}
+.item .text-help{
+	margin-left:150px; 
+	color:#a3a3a3; 
+	padding: 0 15px; 
+	font-size:12px;
+}
+
+#easy_location_map_option .meta-image-iconmarker-preview{
+    max-width: 200px;
+    padding: 0;
+    margin-top: 15px;
+ 	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+}
+.clearImageMarker{
+	background: none;
+	border: none;
+	max-width: 300px;
+	text-decoration: underline;
+	text-align: center;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+#google-map{
+	 min-width: 300px;
+    max-height: 600px;
+    margin-top: 1.5em;
+    height: 65vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+
+
